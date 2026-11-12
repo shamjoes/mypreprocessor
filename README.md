@@ -162,6 +162,22 @@ int main()
 
 ---
 
+
+---
+
+## 🖥️ Ubuntu Linux Verification & Terminal Execution Output
+
+> **Hardware / Lab Environment:** Tested and verified on **Ubuntu Linux (Lab System: `v26be1s6@system7`)** with GCC and GNU Make.
+
+<div align="center">
+  <img src="docs/ubuntu_terminal_output.png" width="100%" alt="Ubuntu Terminal Output on v26be1s6@system7" />
+</div>
+
+### Execution Breakdown:
+1. **Compilation (make):** All modular files (main.c, comment_removal.c, ile_inclusion.c, macro_handler.c) compiled and linked into mypreprocessor.
+2. **Preprocessing (./mypreprocessor test.c):** Generates extended source file 	est.i.
+3. **Verification (cat test.i):** Verified stripping of single and multi-line comments, header inclusion, and recursive macro expansion (PI, SQUARE(x), MAX(a, b), AREA(r)).
+
 ## 🎓 Viva & Reviewer Preparation Guide
 
 ### Q1: Why must comments inside double quotes not be removed?
