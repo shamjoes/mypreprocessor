@@ -1,0 +1,17 @@
+# Binaries
+mypreprocessor
+mypreprocessor.exe
+*.exe
+
+# Object files
+*.o
+*.obj
+
+# Generated preprocessed files
+*.i
+
+# Build folders & IDE files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
